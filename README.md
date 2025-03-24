@@ -20,28 +20,44 @@ This project is a simple implementation of an Information Retrieval (IR) system 
 1. Prepare text files for the documents (e.g., `document_1.txt`, `document_2.txt`, ...).
 2. Compile and run the Java program.
 3. Enter the queries in the required format (e.g., `A AND B`, `A OR B`, etc.).
-4. The search results will be displayed along with the evaluation metrics: Precision, Recall, F-measure, and Rank Power.
+4. The search results will be displayed along with the evaluation metrics: **Precision, Recall, F-measure, and Rank Power**.
 
 ## Example Queries
-- **Boolean Search**:
+- **Boolean Search**:  
   If you input the query:
-The program will retrieve documents that contain both "A" and "B".
+  ```
+  A AND B
+  ```
+  The program will retrieve documents that contain both "A" and "B".
 
-- **Probabilistic Search**:
-The system will calculate the probability of relevance of the query terms and retrieve documents based on that probability.
+- **Probabilistic Search**:  
+  The system will calculate the probability of relevance of the query terms and retrieve documents based on that probability.
 
 ## Requirements
 - **Java 8 or higher**.
 
 ## Running Instructions
-1. Clone or download the project.
+1. Clone or download the project:
+   ```bash
+   git clone https://github.com/your-repo/IR-System.git
+   cd IR-System
+   ```
 2. Compile the Java files:
+   ```bash
+   javac IRSystem.java
+   ```
 3. Run the program:
-4. Enter your search queries.
+   ```bash
+   java IRSystem
+   ```
+4. Enter your search queries when prompted.
 
 ## Notes
 - Ensure that your document files are stored in the correct folder for proper retrieval.
 - The program expects simple text files for the documents.
 
-## Author
-- Your Name
+
+
+
+
+
